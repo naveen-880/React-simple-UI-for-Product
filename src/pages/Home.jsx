@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
-import ProductCard from "../components/ProductCard";
+import ProductCard from "../components/Product";
 import Footer from "../components/Footer";
 
 export default function Home() {
@@ -18,6 +18,7 @@ export default function Home() {
           <ProductCard />
           <ProductCard />
           <ProductCard />
+          
         </div>
       </section>
     </>

@@ -4,6 +4,8 @@ import Layout from './pages/Layout'
 import Home from './pages/Home'
 import Store from './pages/Store'
 import Dynmic from './pages/Dynmic'
+import Contact from "./pages/Contact";
+import About from './pages/About'
 
 export default function App() {
   const routing = createBrowserRouter([
@@ -21,6 +23,14 @@ export default function App() {
       {
         path: "dynamic-page/:id",
         element: <Dynmic />
+      },
+      {
+        path : "/about",
+        element : <About/>
+      },
+      {
+        path:"/contact",
+        element :<Contact/>
       }
       ]
     },
